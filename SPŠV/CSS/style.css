@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: aliceblue;
+}
+
+.stranka{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left:10rem ;
+    margin-right:10rem ;
+}
+
+
+.header{
+    outline:0.2rem solid hsl(0, 0%, 0%);                    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem;
+    height: 30rem;
+    width: 100%;
+    min-height: 30rem;
+    background-color: rgb(179, 179, 179);
+}
+.topmenukontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:0px;
+
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.topmenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 5rem;
+    width: 100%;
+    border: 3px solid black;
+    background-color: white;
+}
+.topmenu button{
+    width: 100%;
+    background-color: white;
+    font-weight: 700;
+}
+.topmenu button:hover{
+    background-color: hsl(0, 0%, 90%);
+    font-size: 0.8rem;
+}
+.rychlelinkykontainer{
+    border: 1px solid black;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: radial-gradient(white,black);
+    background-image: url(/IMAGES/headerbackground.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rychlelinkykontainer button{
+    font-size: 2rem;
+    border: none;
+    background: none;
+    color: white;
+    font-weight: 1000;
+}
+.rychlelinkykontainer button:nth-child(2){
+    border-radius: 5rem;
+    height: 6.25rem;
+}
+.rychlelinkykontainer button:nth-child(1):hover{
+    font-size: 2.1rem;
+    color: white;
+    background-color: hsla(0, 100%, 50%, 0.8);
+    border-radius: 0.2rem;
+    box-shadow: 0 0.1rem 0.1rem black;
+    padding:0.5rem;
+}
+.rychlelinkykontainer button:nth-child(1):active{
+    background-color: white;
+    color: black;
+    
+}
+.rychlelinkykontainer button:nth-child(3):hover{
+    font-size: 2.1rem;
+    color: white;
+    background-color: hsla(0, 100%, 50%, 0.8);
+    border-radius: 0.2rem;
+    box-shadow: 0 0.1rem 0.1rem black;
+    padding:0.5rem;
+}
+.rychlelinkykontainer button:nth-child(3):active{
+    background-color: white;
+    color: black;
+    
+}
+.rychlelinkykontainer button:nth-child(2):hover{
+    color: white;
+    background-color: hsla(0, 100%, 50%, 0.8);
+}
+.rychlelinkykontainer button a img:nth-child(2){
+    display: none;
+    background-color: white;
+    border-radius: 5rem;
+    height: 6.27rem;
+}
+.rychlelinkykontainer button:nth-child(2):active img:nth-child(1){
+    display: none;
+    background-color: none;
+}
+.rychlelinkykontainer button:nth-child(2):active img:nth-child(2){
+    display: block;
+}
+.logo{
+    border: 0.2rem solid black;
+    width: 15rem;
+    height: 15rem;
+    min-width: 15rem;
+    min-height: 15rem;
+    background-color: red;  
+    background-image: url(/IMAGES/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logokontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.logoextend{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 15rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    background-color: hsl(0, 100%, 57%);
+    color: white;
+    font-weight: 1000;
+    font-size: 2rem;
+}
+.logoextend p{
+    text-align: center;
+    width: 99%;
+    box-shadow: 0rem 0.1rem 0.2rem black;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-top:5rem;
+    height: 100vh;
+    background-image: url(/IMAGES/mainbackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    opacity: 80%;
+}
+.stranka2{
+    height: 100vh;
+    }
+
