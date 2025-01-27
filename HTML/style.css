@@ -69,7 +69,7 @@ body{
     justify-content: space-around;
     align-items: center;
     background-image: radial-gradient(white,black);
-    background-image: url(/IMAGES/headerbackground.png);
+    background-image: url(headerbackground.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -135,7 +135,7 @@ body{
     min-width: 15rem;
     min-height: 15rem;
     background-color: red;  
-    background-image: url(/IMAGES/logo.png);
+    background-image: url(logo.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -168,7 +168,7 @@ main{
     justify-content: space-between;
     margin-top:5rem;
     height: 100vh;
-    background-image: url(/IMAGES/mainbackground.jpg);
+    background-image: url(mainbackground.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
