@@ -218,6 +218,9 @@ main{
 .novinkykontainer p{
     padding-top: 1rem;
 }
+.novinkykontainer img{
+    display: none;
+}
 .novinkykontainer:hover{
     border: 0.2rem dashed hsl(0, 0%, 0%);
     margin-top: 1rem;
@@ -260,6 +263,7 @@ main{
     padding: 1rem;
     align-content: center;
 }
+
 .novinkykontainer span:focus {
     display: block;
 }
