@@ -23,11 +23,11 @@ button{
     justify-content: space-between;
     margin-left:10rem ;
     margin-right:10rem ;
+    background-image: url(bodypattern.jpg);
 }
 
 
-.header{
-    outline:0.2rem solid hsl(0, 0%, 0%);                    
+.header{                   
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -43,8 +43,6 @@ button{
     flex-direction: column;
     justify-content: space-evenly;
     gap:0px;
-
-    border: 1px solid black;
     height: 100%;
     width: 100%;
     background-color: whitesmoke;
@@ -55,13 +53,13 @@ button{
     justify-content: space-between;
     height: 5rem;
     width: 100%;
-    border: 3px solid black;
     background-color: white;
 }
 .topmenu button{
     width: 100%;
     background-color: white;
     font-weight: 700;
+    border: none;
 }
 .topmenu button:hover{
     background-color: hsl(0, 0%, 90%);
@@ -71,7 +69,6 @@ button{
     color: hsl(0, 100%, 40%);
 }
 .rychlelinkykontainer{
-    border: 1px solid black;
     height: 100%;
     display: flex;
     justify-content: space-around;
@@ -88,6 +85,7 @@ button{
     background: none;
     color: white;
     font-weight: 1000;
+    border-radius: 0.2rem;
 }
 .rychlelinkykontainer button:nth-child(2){
     border-radius: 5rem;
@@ -137,7 +135,6 @@ button{
     display: block;
 }
 .logo{
-    border: 0.2rem solid black;
     width: 15rem;
     height: 15rem;
     min-width: 15rem;
@@ -175,17 +172,100 @@ button{
     box-shadow: 0.2rem 0.2rem 0.2rem black;
 }
 main{
-    display: flex;
-    justify-content: space-between;
     margin-top:5rem;
     height: 100vh;
+    width: 100%;
     background-image: url(mainbackground.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
-    opacity: 80%;
+    opacity: 90%;
+
 }
+.nadpisnovinky{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    margin-top: 1rem;
+    font-weight: 800;
+    font-size: 5rem;
+    background-color: whitesmoke;
+}
+.novinky{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10rem;
+}
+.novinkykontainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: hsl(0, 0%, 93%);
+    max-width: 20rem;
+    max-height: 30rem;
+    min-width: 20rem;
+    min-height: 30rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    border-radius: 2rem;
+    border: 0.1rem solid hsl(0, 0%, 40%);
+    overflow: hidden;
+}
+.novinkykontainer p{
+    padding-top: 1rem;
+}
+.novinkykontainer:hover{
+    border: 0.2rem dashed hsl(0, 0%, 0%);
+    margin-top: 1rem;
+}
+
+.novinkykontainer span{
+    display: none;
+}
+.novinkykontainer:hover span{
+    display: block;
+}
+.novinkykontainer span{
+    background-color: hsl(0, 0%, 70%);
+    width: fit-content;
+    align-self: center;
+    padding: 0 1rem;
+    border-bottom-right-radius:1rem;
+    border-bottom-left-radius:1rem;
+}
+.novinkykontainer span:hover{
+    background-color: hsl(0, 0%, 80%);
+}
+.novinkykontainer span:active{
+    background-color: hsl(0, 0%, 85%);
+}
+.novinkykontainer span:focus + p{
+    position: fixed;
+    top: 10rem;
+    left: 30rem;
+    bottom: 10rem;
+    background-color: hsl(0, 0%, 93%);
+    max-width: 50rem;
+    max-height: 50rem;
+    min-width: 50rem;
+    min-height: 50rem;
+    text-align: center;
+    border-radius: 2rem;
+    border: 0.1rem solid hsl(0, 0%, 40%);
+    align-self: center;
+    padding: 1rem;
+    align-content: center;
+}
+.novinkykontainer span:focus {
+    display: block;
+}
+
+
+
 .stranka2{
     height: 100vh;
     }
-
