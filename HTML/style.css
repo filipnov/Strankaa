@@ -272,7 +272,7 @@ main{
 @media screen and (max-width: 481px) {
     .stranka{
         margin: 0;
-        flex-wrap: wrap;
+        flex-wrap: wrap;    
         width: 100%;
     }
     .header{
@@ -288,6 +288,7 @@ main{
     .logo{
         width: 100%;
         height: 100%;
+        background-size: cover;
     }
     .topmenukontainer{
         width: 100%;
@@ -335,5 +336,8 @@ main{
         font-size: 1rem ;
         min-width: 10rem;
         max-width: 10rem;
+    }
+    .rychlelinkykontainer{
+        flex-direction: column;
     }
 }
