@@ -298,7 +298,19 @@ main{
     .topmenu button{
         font-size: 0.5rem;
     }
+    main{
+        margin-top: 30rem;
+        background-repeat: repeat-y;
+        height: fit-content;
+    }
+    .nadpisnovinky{
+        text-align: center;
+    }
     .novinky{
+        margin-top: 5rem;
         flex-wrap: wrap;
+    }
+    .novinkykontainer {
+        margin-bottom: 2rem;
     }
 }
