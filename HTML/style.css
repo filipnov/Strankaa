@@ -249,7 +249,7 @@ main{
 .novinkykontainer span:focus + p{
     position: fixed;
     top: 10rem;
-    left: 30rem;
+    left: 35rem;
     bottom: 10rem;
     background-color: hsl(0, 0%, 93%);
     max-width: 50rem;
