@@ -30,7 +30,6 @@ button{
 .header{                   
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
     padding: 0rem;
     height: 30rem;
@@ -214,6 +213,7 @@ main{
     border-radius: 2rem;
     border: 0.1rem solid hsl(0, 0%, 40%);
     overflow: hidden;
+    box-shadow: 0 0.2rem 0.2rem black;
 }
 .novinkykontainer p{
     padding-top: 1rem;
@@ -262,14 +262,39 @@ main{
     align-self: center;
     padding: 1rem;
     align-content: center;
+    overflow: scroll;
+    scrollbar-width: none;
 }
 
 .novinkykontainer span:focus {
     display: block;
 }
-
-
-
-.stranka2{
-    height: 100vh;
+@media screen and (max-width: 481px) {
+    .stranka{
+        margin: 0;
+        flex-wrap: wrap;
     }
+    .header{
+        flex-wrap: wrap;
+    }
+    .logoextend{
+        display: none;
+    }
+    .logokontainer{
+        width: 100%;
+        height: 100%;
+    }
+    .logo{
+        width: 100%;
+        height: 100%;
+    }
+    .topmenukontainer{
+        width: 100%;
+    }
+    .topmenu{
+        width: 100%;
+    }
+    .topmenu button{
+        font-size: 0.5rem;
+    }
+}
