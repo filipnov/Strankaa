@@ -273,7 +273,7 @@ main{
     .stranka{
         margin: 0;
         flex-wrap: wrap;
-        width: 481px;
+        width: 100%;
     }
     .header{
         flex-wrap: wrap;
