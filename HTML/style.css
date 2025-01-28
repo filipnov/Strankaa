@@ -269,7 +269,7 @@ main{
 .novinkykontainer span:focus {
     display: block;
 }
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 425px) {
     .stranka{
         margin: 0;
         flex-wrap: wrap;
