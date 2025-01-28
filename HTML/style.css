@@ -341,3 +341,78 @@ main{
         flex-direction: column;
     }
 }
+@media screen and (max-width: 425px) {
+    .stranka{
+        margin: 0;
+        flex-wrap: wrap; 
+        width: 100%;
+    }
+    .header{
+        flex-wrap: wrap;
+    }
+    .logoextend{
+        display: none;
+    }
+    .logokontainer{
+        width: 100%;
+        min-height: 26rem;
+        max-height: 26rem;
+    }
+    .logo{
+        min-width: 15rem;
+        max-width: 27rem;
+        min-height: 26rem;
+        max-height: 26rem;
+        background-size: cover;
+    }
+    .topmenukontainer{
+        width: 100%;
+    }
+    .topmenu{
+        width: 100%;
+    }
+    .topmenu button{
+        font-size: 0.5rem;
+    }
+    main{
+        margin-top: 30rem;
+        background-repeat: repeat-y;
+        height: fit-content;
+    }
+    .nadpisnovinky{
+        text-align: center;
+    }
+    .novinky{
+        margin-top: 5rem;
+        flex-wrap: wrap;
+    }
+    .novinkykontainer {
+        margin-bottom: 2rem; 
+    }
+    .novinkykontainer{
+        min-height: 20rem;
+        max-height: 20rem;
+    }
+    .novinkykontainer p:focus{
+        width: 1rem;
+    }
+    .novinkykontainer span:focus + p{
+        max-width: 25rem;
+        max-height: 30rem;
+        min-width: 25rem;
+        min-height: 30rem;
+        top: 0rem;
+        left: 3rem;
+    }
+    .novinkykontainer span:focus{
+        width: 8rem;
+    }
+    .rychlelinkykontainer button{
+        font-size: 1rem ;
+        min-width: 10rem;
+        max-width: 10rem;
+    }
+    .rychlelinkykontainer{
+        flex-direction: column;
+    }
+}
