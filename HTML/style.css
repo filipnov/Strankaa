@@ -273,6 +273,7 @@ main{
     .stranka{
         margin: 0;
         flex-wrap: wrap;
+        width: 481px;
     }
     .header{
         flex-wrap: wrap;
@@ -296,5 +297,8 @@ main{
     }
     .topmenu button{
         font-size: 0.5rem;
+    }
+    .novinky{
+        flex-wrap: wrap;
     }
 }
