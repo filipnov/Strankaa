@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-weight: 800;
+    color: whitesmoke;
+    user-select: none;
+    
+}
+body{
+    background-color: blue;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    background-color: hsl(223, 66%, 49%);
+    margin:  0rem 5rem 0rem 5rem;
+    padding: 1rem;
+}
+h1{
+    font-size: 8rem;
+    text-decoration: underline;
+    background-color: hsl(223, 66%, 60%);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+h2{
+    font-size: 5rem;
+    margin: 1rem;
+    background-color: hsl(223, 66%, 55%);
+    padding:0.5rem;
+    border-radius: 0.8rem;
+}
+h3{
+    font-size: 2rem;
+    margin: 1rem;
+    background-color: hsl(223, 66%, 52%);
+    padding:0.5rem;
+    border-radius: 0.5rem;
+}
+div{
+    border-radius: 1rem;
+    
+}
+.shadow{
+    box-shadow: 0rem 0.1rem 1rem black;
+}
+div:hover{
+    cursor: pointer;
+}
+.example1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 5rem;
+    border: 0.5rem outset hsl(223, 97%, 26%);
+    background-color: hsl(223, 98%, 60%);
+}
+.example2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 5rem;
+    border: 0.5rem outset hsl(223, 97%, 26%);
+    background-color: hsl(223, 98%, 60%);
+}
+.example3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 5rem;
+    border: 0.5rem outset hsl(223, 97%, 26%);
+    background-color: hsl(223, 98%, 60%);
+}
+.example4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 5rem;
+    border: 0.5rem outset hsl(223, 97%, 26%);
+    background-color: hsl(223, 98%, 60%);
+}
+.example5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 5rem;
+    border: 0.5rem outset hsl(223, 97%, 26%);
+    background-color: hsl(223, 98%, 60%);
+}
+.example6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50rem;
+    height: fit-content;
+    border: 0.5rem outset hsl(223, 97%, 26%);
+    background-color: hsl(223, 98%, 60%);
+}
+.example7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50rem;
+    height: fit-content;
+    border: 0.5rem outset hsl(223, 97%, 26%);
+    background-color: hsl(223, 98%, 60%);
+}
+.example8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50rem;
+    height: fit-content;
+    border: 0.5rem outset hsl(223, 97%, 26%);
+    background-color: hsl(223, 98%, 60%);
+}
+.example9{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 5rem;
+    border: 0.5rem outset hsl(223, 97%, 26%);
+    background-color: hsl(223, 98%, 60%);
+}
+.example10{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 5rem;
+    border: 0.5rem outset hsl(223, 97%, 26%);
+    background-color: hsl(223, 98%, 60%);
+}
+.example11{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50rem;
+    height: fit-content;
+    border: 0.5rem outset hsl(223, 97%, 26%);
+    background-color: hsl(223, 98%, 60%);
+}
+.example12{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 50rem;
+    height: fit-content;
+    border: 0.5rem outset hsl(223, 97%, 26%);
+    background-color: hsl(223, 98%, 60%);
+}
+.example13{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 50rem;
+    height: 5rem;
+    border: 0.5rem outset hsl(223, 97%, 26%);
+    background-color: hsl(223, 98%, 60%);
+}
+.example14{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50rem;
+    height: 5rem;
+    border: 0.5rem outset hsl(223, 97%, 26%);
+    background-color: hsl(223, 98%, 60%);
+}
+.example15{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    width: 50rem;
+    height: 5rem;
+    border: 0.5rem outset hsl(223, 97%, 26%);
+    background-color: hsl(223, 98%, 60%);
+}
+.example1:active{
+    justify-content: flex-start;
+    align-items: center;
+    width: 50rem;
+    height: 5rem;
+   
+}
+.example2:active{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50rem;
+    height: 5rem;
+   
+}
+.example3:active{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 5rem;
+    
+}
+.example4:active{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50rem;
+    height: 5rem;
+   
+}
+.example5:active{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50rem;
+    height: 5rem;
+   
+}
+.example6:active{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50rem;
+    height: fit-content;
+   
+}
+.example7:active{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50rem;
+    height: fit-content;
+   
+}
+.example8:active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50rem;
+    height: fit-content;
+    
+}
+.example13:active{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 30rem;
+    height: 5rem;
+   
+}
+.example14:active{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 30rem;
+    height: fit-content;
+    
+}
+.example15:active{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    width: 30rem;
+    height: fit-content;
+   
+}
+.box1{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 0.1rem double hsl(194, 91%, 74%);
+    background-color: hsl(223, 99%, 68%);
+}
+.box2{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 0.1rem double hsl(194, 91%, 74%);
+    background-color: hsl(223, 99%, 68%);
+}
+.box3{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 0.1rem double hsl(194, 91%, 74%);
+    background-color: hsl(223, 99%, 68%);
+}
+.box4{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 0.1rem double hsl(194, 91%, 74%);
+    background-color: hsl(223, 99%, 68%);
+}
+.example13:active .box1{
+    text-align: center;
+    min-width: 10rem;
+}
+.example13:active .box2{
+    text-align: center;
+    min-width: 10rem;
+}
+.example13:active .box3{
+    text-align: center;
+    min-width: 10rem;
+}
+.example13:active .box4{
+    text-align: center;
+    min-width: 10rem;
+}
+
+.example14:active .box1{
+    text-align: center;
+    min-width: 10rem;
+}
+.example14:active .box2{
+    text-align: center;
+    min-width: 10rem;
+}
+.example14:active .box3{
+    text-align: center;
+    min-width: 10rem;
+}
+.example14:active .box4{
+    text-align: center;
+    min-width: 10rem;
+}
+
+.example15:active .box1{
+    text-align: center;
+    min-width: 10rem;
+}
+.example15:active .box2{
+    text-align: center;
+    min-width: 10rem;
+}
+.example15:active .box3{
+    text-align: center;
+    min-width: 10rem;
+}
+.example15:active .box4{
+    text-align: center;
+    min-width: 10rem;
+}
