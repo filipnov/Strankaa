@@ -1,0 +1,45 @@
+p2{ 
+    outline: auto;
+    outline-color: black;
+    font-size: 2vw;
+    }
+    p1{
+    color: brown;
+    font-size: 2vw;
+    }
+    body{
+    background-color: wheat;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    h1 {
+    color: black;
+    background-color: tan;
+    font-size: 5vw;
+    }
+    h2 {
+    color: black;
+    background-color: tan;
+    font-size: 4vw;
+    }
+    h3{
+    color: black;
+    background-color: tan;
+    font-size: 3vw;
+    }
+    html
+    {
+        scroll-behavior: smooth;
+    }
+    a{
+        font-size: 2vw;
+    }
+    hr{
+        border: 0.2vw dashed black;;
+    }
+    .center
+    {
+        list-style-position: inside;
+        text-align: center;
+        
+    }
