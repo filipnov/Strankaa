@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="game">
+        <h1 id="gameH1">
+            Number Guessing Game!
+        </h1>
+        <div class="settings" id="gameSettings">
+            <label for="min">Min:</label>
+            <input type="number" min="0" id="minNum" max="99">
+            <label for="max">Max</label>
+            <input type="number" min="0" max="100" id="maxNum">
+        </div>
+        <h1 id="errorMsg"></h1>
+        <button type="submit" id="submitSettings">Submit!</button>
+        <div id="gameStart">
+            <h1 id="guessH1"></h1>
+            <input type="text" id="yourGuess">
+            <button type="submit" id="guessSubmit">Guess!</button>
+            <h1 id="guessAnswer" class="guessAnswer"></h1>
+        </div>
+        <button id="restartBtn">Restart</button>
+    </div> 
+   <script src="script.js"></script>
+</html>
