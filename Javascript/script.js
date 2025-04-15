@@ -26,7 +26,6 @@ submitSettings.onclick = function(){
     else
     {
         ranNum = Math.floor(Math.random() * (maxGuess - minGuess) + 1) + minGuess; 
-        alert(ranNum);   
         gameStart.style = "display: flex";
         guessH1.innerText = "You are guessing a number between " + minGuess + " and " + maxGuess;
         gameSettings.style = "display: none";
