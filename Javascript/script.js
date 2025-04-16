@@ -23,6 +23,9 @@ submitSettings.onclick = function(){
         errorMsg.innerText = "MIN must me lower than MAX!"
         errorMsg.style = "display: block"
     }
+    else if (minGuess == maxGuess){
+        errorMsg.innerText = "MIN can't be same as MAX!"
+    }
     else
     {
         ranNum = Math.floor(Math.random() * (maxGuess - minGuess) + 1) + minGuess; 
