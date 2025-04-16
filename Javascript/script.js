@@ -25,6 +25,7 @@ submitSettings.onclick = function(){
     }
     else if (minGuess == maxGuess){
         errorMsg.innerText = "MIN can't be same as MAX!"
+        errorMsg.style = "display: block"
     }
     else
     {
